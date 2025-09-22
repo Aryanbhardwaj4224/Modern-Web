@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+      integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="loco.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
       rel="stylesheet"
@@ -11,6 +18,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div id="minicircle"></div>
     <div id="main">
       <!-- hero  -->
       <div id="hero">
@@ -21,10 +29,16 @@
         </div>
         <!-- heading  -->
         <div id="heading">
-          <h1>Round 1:</h1>
+          <div class="bounding">
+            <h1 class="boundingelem">Round 1:</h1>
+          </div>
           <div class="blocktext">
-            <h1 id="sub-Heading">Fight!</h1>
-            <h5>Power Unleashed</h5>
+            <div class="bounding">
+              <h1 class="boundingelem" id="sub-Heading">Fight!</h1>
+            </div>
+            <div class="bounding">
+              <h5 class="boundingelem">Power Unleashed</h5>
+            </div>
           </div>
         </div>
 
@@ -82,17 +96,18 @@
           <a href="">Let's talk</a>
         </div>
       </div>
-    </div>
 
-    <!-- gameplay  -->
-    <div id="gameplay">
-      <h5>forgot to mention</h5>
-      <h3><a href="">click to view gameplay<i class="ri-arrow-right-up-line"></i></a></h3>
-    </div>
-    <script src="script.js"  ></script>
-
-    <!-- footer  -->
-     <div id="footer">
+      <!-- gameplay  -->
+      <div id="gameplay">
+        <h5>forgot to mention</h5>
+        <h3>
+          <a href=""
+            >click to view gameplay<i class="ri-arrow-right-up-line"></i
+          ></a>
+        </h3>
+      </div>
+      <!-- footer  -->
+      <div id="footer">
         <div id="footerleft">
           <h5>2025 &copy</h5>
           <h5>0:05 AM EST</h5>
@@ -103,6 +118,9 @@
           <a href="#">linkdin</a>
           <a href="#">e-mail</a>
         </div>
-     </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
