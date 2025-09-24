@@ -12,21 +12,27 @@ body {
   width: 100%;
   height: 100%;
 }
-#minicircle{
-  transition: all cubic-bezier(0.19,1,00.22,1)1s;
+#minicircle {
+  /* transition: all cubic-bezier(0.19,1,00.22,1)1s;
   width: 10px;
   height: 10px;
   position: absolute;
   z-index: 99999;
   border-radius: 50%;
-  background: #fff;
+  background: #fff; */
+  z-index: 99999;
+  position: absolute;
+  width: 30px; /* size of fireball */
+  height: 30px;
+  background: url("./image/hurri-kane-icon.png") no-repeat center/contain;
+  pointer-events: none;
+  transition: all cubic-bezier(0.19, 1, 00.22, 1) 1.2s;
 }
-.bounding{
+.bounding {
   width: fit-content;
   overflow: hidden;
-  background-color: red;
 }
-.bounding .boundingelem{
+.bounding .boundingelem {
   transform: translateY(100%);
 }
 #main {
@@ -41,7 +47,7 @@ body {
   background: url(./image/kof2.jpg) top;
   background-size: cover;
   background-repeat: none;
-  background-attachment:fixed;
+  background-attachment: fixed;
   background-position: center center;
   color: #fff;
 }
@@ -97,11 +103,14 @@ body {
 }
 
 /* --- small-heading  */
-#small-heading {
+#smallheading {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
   margin-top: 10vh;
   padding-right: 3vw;
 }
-#small-heading h5 {
+#smallheading h5 {
   text-transform: uppercase;
   margin-top: 1vh;
   text-align: right;
@@ -245,17 +254,15 @@ body {
   align-items: center;
   padding: 40px 30px;
 }
-#footerleft{
+#footerleft {
   display: flex;
   gap: 20px;
- 
 }
-#footerright{
+#footerright {
   display: flex;
   gap: 30px;
- 
 }
-#footer a{
+#footer a {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
