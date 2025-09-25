@@ -13,20 +13,13 @@ body {
   height: 100%;
 }
 #minicircle {
-  /* transition: all cubic-bezier(0.19,1,00.22,1)1s;
-  width: 10px;
-  height: 10px;
-  position: absolute;
-  z-index: 99999;
-  border-radius: 50%;
-  background: #fff; */
   z-index: 99999;
   position: absolute;
-  width: 30px; /* size of fireball */
-  height: 30px;
-  background: url("./image/hurri-kane-icon.png") no-repeat center/contain;
+  width: 160px;
+  height: 160px;
   pointer-events: none;
-  transition: all cubic-bezier(0.19, 1, 00.22, 1) 1.2s;
+  background: no-repeat center/contain;
+  transition: all cubic-bezier(0.19, 1, 00.22, 1) 1.5s;
 }
 .bounding {
   width: fit-content;
