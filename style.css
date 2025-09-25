@@ -279,3 +279,131 @@ body {
   font-size: 14px;
   font-weight: 500;
 }
+
+/* ---  */
+
+/* ========== Responsive Design ========== */
+
+/* Tablets (≤1024px) */
+@media (max-width: 1024px) {
+  #nav a {
+    font-size: 2.5vw;
+  }
+  #nav h5 {
+    font-size: 2.5vw;
+  }
+
+  #heading h1 {
+    font-size: 12vw;
+    margin-left: 5vw;
+  }
+  #heading #sub-Heading {
+    margin-left: 15vw;
+  }
+
+  .blocktext h5 {
+    font-size: 2.2vw;
+  }
+
+  #smallheading h5 {
+    font-size: 2.2vw;
+  }
+
+  #about {
+    flex-direction: column;
+    padding: 15vw 5vw;
+    padding-left: 5vw;
+    text-align: center;
+  }
+  #about img {
+    width: 35vw;
+  }
+  #textabout {
+    width: 90%;
+    align-items: center;
+  }
+  #textabout a {
+    margin: 0 auto;
+  }
+}
+
+/* Mobiles (≤768px) */
+@media (max-width: 768px) {
+  #nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+  #nav a,
+  #nav h5 {
+    font-size: 5vw;
+  }
+
+  #heading h1 {
+    font-size: 14vw;
+    margin-left: 0;
+    text-align: center;
+  }
+  #heading #sub-Heading {
+    margin-left: 0;
+    text-align: center;
+  }
+  .blocktext {
+    align-items: center;
+  }
+  .blocktext h5 {
+    font-size: 3.5vw;
+    text-align: center;
+  }
+
+  #smallheading {
+    align-items: center;
+    padding-right: 0;
+  }
+  #smallheading h5 {
+    font-size: 3.5vw;
+    text-align: center;
+  }
+
+  #hero-footer {
+    flex-direction: column;
+    gap: 15px;
+  }
+  #hero-footer a {
+    font-size: 3.5vw;
+  }
+
+  .elem {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .elem h1 {
+    font-size: 10vw;
+  }
+  .elem img {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  #about img {
+    width: 50vw;
+  }
+  #textabout {
+    width: 100%;
+  }
+
+  #footer {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  #footerleft,
+  #footerright {
+    flex-direction: column;
+    gap: 10px;
+  }
+  #footer a {
+    font-size: 4vw;
+  }
+}
