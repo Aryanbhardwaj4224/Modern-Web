@@ -26,7 +26,12 @@ Built with **HTML, CSS, JavaScript, GSAP, and Locomotive Scroll**, this project 
 - **Fonts:** Google Fonts (Bangers, Montserrat, Roboto)
 
 ---
+## 🔗 Live Demo
 
+(https://aryanbhardwaj4224.github.io/Modern-Web/)
+View Project Here
+
+---
 ## 📸 Screenshots
 
 ### Hero Section
@@ -44,6 +49,30 @@ This project is heavily inspired by **The King of Fighters** series, paying trib
 ---
 
 ## 📂 Project Structure
+```
+├── index.html # Main HTML file
+├── style.css # Styling and responsiveness
+├── loco.css # Locomotive scroll styles
+├── script.js # Animations and interactivity
+├── /gif # Character GIFs
+├── /image # Backgrounds and assets
+```
 
+---
 
+## ⚡ How to Run Locally
+
+1. Clone this repository:
+```bash
+git clone https://github.com/Aryanbhardwaj4224/Modern-Web.git
+```
+2.Open the folder:
+```bash
+cd Modern-Web
+```
+3.Run the project by simply opening index.html in your browser.
+---
+
+## 👤 Author
+** Aryan Bhardwaj **
 
