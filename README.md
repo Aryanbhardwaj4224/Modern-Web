@@ -30,7 +30,7 @@ Built with **HTML, CSS, JavaScript, GSAP, and Locomotive Scroll**, this project 
 ## 📸 Screenshots
 
 ### Hero Section
-![Hero Screenshot](prev-01.png)
+![Hero Screenshot](prev-1.png)
 
 ### Character Showcase
 ![Character GIFs](prev-2.png)
@@ -44,4 +44,5 @@ This project is heavily inspired by **The King of Fighters** series, paying trib
 ---
 
 ## 📂 Project Structure
+
 
