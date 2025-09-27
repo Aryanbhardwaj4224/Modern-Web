@@ -71,8 +71,10 @@ git clone https://github.com/Aryanbhardwaj4224/Modern-Web.git
 cd Modern-Web
 ```
 3.Run the project by simply opening index.html in your browser.
+
 ---
 
 ## 👤 Author
 ** Aryan Bhardwaj **
+
 
